@@ -34,12 +34,9 @@ const App = () => {
       <section className="section">
         <div>
           {getData.map((val, index) => {
-            {
-              console.log(val);
-            }
             return (
               <div key={index}>
-                <h2>{val[1]}</h2>
+                <h2>{val}</h2>
               </div>
             );
           })}
